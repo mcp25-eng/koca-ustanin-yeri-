@@ -78,8 +78,10 @@ function renderWelcome() {
   const data = state.data;
   if (!data) return;
   document.getElementById('restaurant-name-welcome').textContent = data.restaurant.name;
+  document.getElementById('welcome-tagline').textContent = t('tagline');
   document.getElementById('welcome-text').textContent = t('welcome');
-  document.getElementById('view-menu-btn').textContent = t('viewMenu');
+  document.getElementById('view-menu-label').textContent = t('viewMenu');
+  document.getElementById('welcome-foot').textContent = t('welcomeFoot');
   document.getElementById('logo-welcome').src = data.restaurant.logo;
 }
 

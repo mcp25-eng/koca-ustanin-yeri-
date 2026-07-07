@@ -15,6 +15,7 @@
 <body>
   <!-- Karşılama ekranı -->
   <section id="welcome-screen" class="welcome">
+    <div class="welcome__glow" aria-hidden="true"></div>
     <div class="welcome__top">
       <button class="lang-toggle" id="lang-toggle" aria-label="Dil değiştir">
         <span class="lang-toggle__flag" id="lang-flag">🇹🇷</span>
@@ -22,11 +23,23 @@
       </button>
     </div>
     <div class="welcome__body">
-      <img src="assets/logo.png" alt="" class="welcome__logo" id="logo-welcome">
+      <div class="welcome__logo-wrap">
+        <img src="assets/logo.png" alt="" class="welcome__logo" id="logo-welcome">
+      </div>
       <h1 class="welcome__title" id="restaurant-name-welcome">Koca Ustanın Yeri</h1>
+      <div class="welcome__divider" aria-hidden="true">
+        <span></span>
+        <svg viewBox="0 0 24 24"><path d="M12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61z"/></svg>
+        <span></span>
+      </div>
+      <p class="welcome__tagline" id="welcome-tagline"></p>
       <p class="welcome__text" id="welcome-text"></p>
-      <button type="button" class="welcome__cta" id="view-menu-btn"></button>
+      <button type="button" class="welcome__cta" id="view-menu-btn">
+        <span id="view-menu-label"></span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>
+      </button>
     </div>
+    <div class="welcome__foot" id="welcome-foot"></div>
   </section>
 
   <!-- Menü ekranı -->

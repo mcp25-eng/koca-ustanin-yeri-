@@ -7,8 +7,10 @@ const state = {
 
 const I18N = {
   tr: {
-    welcome: "Koca Ustanın Yeri'ne hoş geldiniz.",
-    viewMenu: 'Menüyü Gör',
+    welcome: "Deniz esintili lezzetler, taze balık ve zengin meze çeşitleriyle sizi soframıza bekliyoruz.",
+    tagline: 'Balık · Meze · Izgara',
+    viewMenu: 'Menüyü Keşfet',
+    welcomeFoot: 'Yalova · Çiftlikköy',
     loadingError: 'Menü yüklenemedi. Lütfen sayfayı yenileyin.',
     getDirections: 'Yol tarifi',
     perPiece: 'adet',
@@ -18,8 +20,10 @@ const I18N = {
     hideContact: 'Gizle'
   },
   en: {
-    welcome: 'Welcome to Koca Ustanın Yeri.',
-    viewMenu: 'View Menu',
+    welcome: 'Fresh fish, rich meze varieties and sea-breeze flavors await you at our table.',
+    tagline: 'Fish · Meze · Grill',
+    viewMenu: 'Explore Menu',
+    welcomeFoot: 'Yalova · Çiftlikköy',
     loadingError: 'Menu could not be loaded. Please refresh the page.',
     getDirections: 'Directions',
     perPiece: 'pc',

@@ -1,0 +1,1144 @@
+{
+  "settings": {
+    "showPrices": false,
+    "showItemImages": true,
+    "currency": "₺",
+    "footerNote": "Müzikli akşamlarda alkol fiyatlarında değişiklik olabilir.",
+    "footerNoteEn": "Alcohol prices may change on evenings with live music.",
+    "reviewNote": "Bizi ziyaret ettiyseniz, Google'da puanlamayı unutmayın! ⭐",
+    "reviewNoteEn": "If you enjoyed your visit, don't forget to rate us on Google! ⭐"
+  },
+  "restaurant": {
+    "name": "Koca Ustanın Yeri",
+    "tagline": "Premium Quality · Restaurant",
+    "logo": "assets/logo.png"
+  },
+  "contact": {
+    "phones": [
+      {
+        "name": "Kemal",
+        "number": "05451591201"
+      },
+      {
+        "name": "Cemal",
+        "number": "05352133713"
+      }
+    ],
+    "whatsapp": "05451591201",
+    "address": {
+      "tr": "Yalova İzmit Karayolu Mevkii, Gazi Abdullah Erbaş Cad. Gazino No: 321/1A, Kılıçköy, Çiftlikköy, Yalova",
+      "en": "Yalova-Izmit Highway, Gazi Abdullah Erbaş St. Gazino No: 321/1A, Kılıçköy, Çiftlikköy, Yalova"
+    },
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Yalova%20%C4%B0zmit%20Karayolu%20Mevkii%2C%20Gazi%20Abdullah%20Erba%C5%9F%20Cad.%20Gazino%20No%3A%20321/1A%2C%20K%C4%B1l%C4%B1%C3%A7k%C3%B6y%2C%20%C3%87iftlikk%C3%B6y%2C%20Yalova"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/kocaustannyericeylankent",
+    "facebook": "",
+    "tiktok": "",
+    "googleMaps": "https://www.google.com/maps/search/?api=1&query=Yalova%20%C4%B0zmit%20Karayolu%20Mevkii%2C%20Gazi%20Abdullah%20Erba%C5%9F%20Cad.%20Gazino%20No%3A%20321/1A%2C%20K%C4%B1l%C4%B1%C3%A7k%C3%B6y%2C%20%C3%87iftlikk%C3%B6y%2C%20Yalova"
+  },
+  "categories": [
+    {
+      "id": "mezeler",
+      "name": "Mezeler",
+      "nameEn": "Appetizers",
+      "icon": "🫒",
+      "items": [
+        {
+          "name": "Peynir",
+          "nameEn": "Feta Cheese",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/peynir.jpg"
+        },
+        {
+          "name": "Kavun",
+          "nameEn": "Melon",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kavun.jpg"
+        },
+        {
+          "name": "Patlıcan Salata",
+          "nameEn": "Eggplant Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/patlican-salata.jpg"
+        },
+        {
+          "name": "Soslu Patlıcan",
+          "nameEn": "Eggplant with Sauce",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/soslu-patlican.jpg"
+        },
+        {
+          "name": "Haydari",
+          "nameEn": "Thick Yoghurt with Garlic and Dill",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/haydari.jpg"
+        },
+        {
+          "name": "Acılı Ezme",
+          "nameEn": "Hot Spicy Tomato Puree",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/acili-ezme.jpg"
+        },
+        {
+          "name": "Havuç Tarator",
+          "nameEn": "Carrots, Garlic Sauce",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/havuc-tarator.jpg"
+        },
+        {
+          "name": "Zencefilli Cibez",
+          "nameEn": "Cibez with Ginger",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/zencefilli-cibez.jpg"
+        },
+        {
+          "name": "Barbunya Pilaki",
+          "nameEn": "Kidney Bean Stew",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/barbunya-pilaki.jpg"
+        },
+        {
+          "name": "Al Biber",
+          "nameEn": "Red Pepper",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/al-biber.jpg"
+        },
+        {
+          "name": "Turşu",
+          "nameEn": "Pickle",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/tursu.jpg"
+        },
+        {
+          "name": "Çalı Fasulye",
+          "nameEn": "Green Beans",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/cali-fasulye.jpg"
+        },
+        {
+          "name": "Zeytinyağlı Enginar",
+          "nameEn": "Artichoke with Olive Oil",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/zeytinyagli-enginar.jpg"
+        },
+        {
+          "name": "Fava",
+          "nameEn": "Fava",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/fava.jpg"
+        },
+        {
+          "name": "Deniz Börülcesi",
+          "nameEn": "Glasswort",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/deniz-borulcesi.jpg"
+        },
+        {
+          "name": "Semizotu",
+          "nameEn": "Purslane with Yoghurt",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/semizotu.jpg"
+        },
+        {
+          "name": "Midye Dolma",
+          "nameEn": "Stuffed Mussels",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/midye-dolma.jpg"
+        },
+        {
+          "name": "Ahtapot",
+          "nameEn": "Octopus",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/ahtapot.jpg"
+        },
+        {
+          "name": "Lakerda",
+          "nameEn": "Pickled Tunny",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/lakerda.jpg"
+        },
+        {
+          "name": "Soslu Hamsi",
+          "nameEn": "Anchovy Sauce",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/soslu-hamsi.jpg"
+        },
+        {
+          "name": "Soya Soslu Uskumru",
+          "nameEn": "Mackerel with Soy Sauce",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/soya-soslu-uskumru.jpg"
+        },
+        {
+          "name": "Kalamar Cibez",
+          "nameEn": "Calamari Cibez",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kalamar-cibez.jpg"
+        },
+        {
+          "name": "Çiroz",
+          "nameEn": "Çiroz",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/ciroz.jpg"
+        },
+        {
+          "name": "Levrek Marin",
+          "nameEn": "Marinated Seabass",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/levrek-marin.jpg"
+        },
+        {
+          "name": "Söğüş Karides",
+          "nameEn": "Shrimp Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/sogus-karides.jpg"
+        },
+        {
+          "name": "Beyin Salata",
+          "nameEn": "Brain Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/beyin-salata.jpg"
+        },
+        {
+          "name": "Ciğer",
+          "nameEn": "Fried Liver",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/ciger.jpg"
+        },
+        {
+          "name": "Fesleğenli Levrek Marin",
+          "nameEn": "Marinated Seabass with Basil",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/feslegenli-levrek-marin.jpg"
+        },
+        {
+          "name": "Patlıcan Tava",
+          "nameEn": "Fried Eggplant",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/patlican-tava.jpg"
+        },
+        {
+          "name": "Soğuk Meze",
+          "nameEn": "Cold Meze",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/soguk-meze.jpg"
+        },
+        {
+          "name": "Sıcak Pazı",
+          "nameEn": "Hot Chard",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/sicak-pazi.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ara-sicaklar",
+      "name": "Ara Sıcaklar",
+      "nameEn": "Hot Appetizers",
+      "icon": "🔥",
+      "items": [
+        {
+          "name": "Kalamar Tava",
+          "nameEn": "Fried Calamari",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kalamar-tava.jpg"
+        },
+        {
+          "name": "Kalamar Izgara",
+          "nameEn": "Grilled Calamari",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kalamar-izgara.jpg"
+        },
+        {
+          "name": "Karides Güveç",
+          "nameEn": "Shrimp Casserole",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/karides-guvec.jpg"
+        },
+        {
+          "name": "Tereyağlı Karides",
+          "nameEn": "Shrimp with Butter",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/tereyagli-karides.jpg"
+        },
+        {
+          "name": "Jumbo Karides",
+          "nameEn": "Jumbo Shrimp",
+          "price": null,
+          "unit": "adet",
+          "image": "assets/foods/jumbo-karides.jpg"
+        },
+        {
+          "name": "Balık Mücver",
+          "nameEn": "Fish Patty with Vegetable",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/balik-mucver.jpg"
+        },
+        {
+          "name": "Balık Kokoreç",
+          "nameEn": "Grilled Minced Fish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/balik-kokorec.jpg"
+        },
+        {
+          "name": "Balık Köfte",
+          "nameEn": "Fishball",
+          "price": null,
+          "unit": "adet",
+          "image": "assets/foods/balik-kofte.jpg"
+        },
+        {
+          "name": "Paçanga Böreği",
+          "nameEn": "Pastrami Pastry",
+          "price": null,
+          "unit": "adet",
+          "image": "assets/foods/pacanga-boregi.jpg"
+        },
+        {
+          "name": "Sigara Böreği",
+          "nameEn": "Roll Pastry",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/sigara-boregi.jpg"
+        },
+        {
+          "name": "Yaprak Ciğer",
+          "nameEn": "Leaf Liver",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/yaprak-ciger.jpg"
+        },
+        {
+          "name": "Ahtapot Izgara",
+          "nameEn": "Grilled Octopus",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/ahtapot-izgara.jpg"
+        },
+        {
+          "name": "Pastırmalı Humus",
+          "nameEn": "Hummus with Pastrami",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/pastirmali-humus.jpg"
+        },
+        {
+          "name": "Patates Tava",
+          "nameEn": "Fried Potato",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/patates-tava.jpg"
+        },
+        {
+          "name": "Yunan Usulü Çıtır Kabak",
+          "nameEn": "Greek-style Crispy Zucchini",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/yunan-usulu-kabak.jpg"
+        },
+        {
+          "name": "Levrek Simit",
+          "nameEn": "Sea Bass Simit",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/levrek-simit.jpg"
+        },
+        {
+          "name": "Balık Böreği",
+          "nameEn": "Fish Pastry",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/balik-boregi.jpg"
+        }
+      ]
+    },
+    {
+      "id": "salatalar",
+      "name": "Salatalar",
+      "nameEn": "Salads",
+      "icon": "🥗",
+      "items": [
+        {
+          "name": "Çoban Salata",
+          "nameEn": "Shepherd's Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/coban-salata.jpg"
+        },
+        {
+          "name": "Mevsim Salata",
+          "nameEn": "Season Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mevsim-salata.jpg"
+        },
+        {
+          "name": "Yeşil Salata",
+          "nameEn": "Green Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/yesil-salata.jpg"
+        },
+        {
+          "name": "Göbek Salata",
+          "nameEn": "Iceberg Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/gobek-salata.jpg"
+        },
+        {
+          "name": "Gavurdağı Salata",
+          "nameEn": "Gavurdagi Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/gavurdagi-salata.jpg"
+        },
+        {
+          "name": "Şefin Salatası",
+          "nameEn": "Chef's Salad",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/sefin-salatasi.jpg"
+        }
+      ]
+    },
+    {
+      "id": "izgara-baliklar",
+      "name": "Izgara Balıklar",
+      "nameEn": "Grilled Fishes",
+      "icon": "🐟",
+      "items": [
+        {
+          "name": "Hamsi",
+          "nameEn": "Anchovy",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/hamsi-izgara.jpg"
+        },
+        {
+          "name": "Sardalya",
+          "nameEn": "Black Sea Sprat",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/sardalya-izgara.jpg"
+        },
+        {
+          "name": "Çupra",
+          "nameEn": "Bream",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/cupra.jpg"
+        },
+        {
+          "name": "Levrek",
+          "nameEn": "Bass",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/levrek-izgara.jpg"
+        },
+        {
+          "name": "Somon",
+          "nameEn": "Salmon",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/somon-izgara.jpg"
+        },
+        {
+          "name": "Çinekop",
+          "nameEn": "Small Bluefish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/cinekop.jpg"
+        },
+        {
+          "name": "Sarıkanat",
+          "nameEn": "Small Bluefish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/sarikanat.jpg"
+        },
+        {
+          "name": "Lüfer",
+          "nameEn": "Bluefish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/lufer.jpg"
+        },
+        {
+          "name": "Kofana",
+          "nameEn": "Large Bluefish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kofana.jpg"
+        },
+        {
+          "name": "Kalkan",
+          "nameEn": "Turbot",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kalkan.jpg"
+        },
+        {
+          "name": "Kılıç Şiş",
+          "nameEn": "Swordfish Shish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kilic-sis.jpg"
+        },
+        {
+          "name": "Akya",
+          "nameEn": "Leer Fish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/akya.jpg"
+        },
+        {
+          "name": "Lagos",
+          "nameEn": "Grouper",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/lagos.jpg"
+        },
+        {
+          "name": "Deniz Levreği",
+          "nameEn": "Sea Bass",
+          "price": null,
+          "unit": "kg",
+          "image": "assets/foods/deniz-levregi.jpg"
+        },
+        {
+          "name": "Deniz Çuprası",
+          "nameEn": "Sea Bream",
+          "price": null,
+          "unit": "kg",
+          "image": "assets/foods/deniz-cuprasi.jpg"
+        },
+        {
+          "name": "Palamut",
+          "nameEn": "Bonito",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/palamut-izgara.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tava-baliklar",
+      "name": "Tava Balıklar",
+      "nameEn": "Fried Fishes",
+      "icon": "🍳",
+      "items": [
+        {
+          "name": "Hamsi",
+          "nameEn": "Anchovy",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/hamsi-tava.jpg"
+        },
+        {
+          "name": "Sardalya",
+          "nameEn": "Black Sea Sprat",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/sardalya-tava.jpg"
+        },
+        {
+          "name": "İstavrit",
+          "nameEn": "Horse Mackerel",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/istavrit.jpg"
+        },
+        {
+          "name": "Tekir",
+          "nameEn": "Mullet",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/tekir.jpg"
+        },
+        {
+          "name": "Mezgit",
+          "nameEn": "White",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mezgit.jpg"
+        },
+        {
+          "name": "Somon",
+          "nameEn": "Salmon",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/somon-tava.jpg"
+        },
+        {
+          "name": "Levrek",
+          "nameEn": "Bass",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/levrek-tava.jpg"
+        },
+        {
+          "name": "Barbun",
+          "nameEn": "Red Mullet",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/barbun.jpg"
+        },
+        {
+          "name": "Palamut",
+          "nameEn": "Bonito",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/palamut-tava.jpg"
+        }
+      ]
+    },
+    {
+      "id": "izgara-et",
+      "name": "Izgara Et",
+      "nameEn": "Grilled Meat",
+      "icon": "🥩",
+      "items": [
+        {
+          "name": "Tavuk Şiş",
+          "nameEn": "Chicken Shish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/tavuk-sis.jpg"
+        },
+        {
+          "name": "Tavuk Sote",
+          "nameEn": "Sauteed Chicken",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/tavuk-sote.jpg"
+        },
+        {
+          "name": "Tavuk Pirzola",
+          "nameEn": "Chicken Chop",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/tavuk-pirzola.jpg"
+        },
+        {
+          "name": "Kanat Izgara",
+          "nameEn": "Grilled Chicken Wing",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kanat-izgara.jpg"
+        },
+        {
+          "name": "Piliç Sarma",
+          "nameEn": "Chicken Rolls",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/pilic-sarma.jpg"
+        },
+        {
+          "name": "Köfte",
+          "nameEn": "Meatball",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kofte.jpg"
+        },
+        {
+          "name": "İnegöl Köfte",
+          "nameEn": "Special Inegol Meatball",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/inegol-kofte.jpg"
+        },
+        {
+          "name": "Dana Bonfile",
+          "nameEn": "Beef Tenderloin",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/dana-bonfile.jpg"
+        },
+        {
+          "name": "Dana Antrikot",
+          "nameEn": "Veal Entrecote",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/dana-antrikot.jpg"
+        },
+        {
+          "name": "Kuzu Şiş",
+          "nameEn": "Lamb Shish",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kuzu-sis.jpg"
+        },
+        {
+          "name": "Kuzu Tandır",
+          "nameEn": "Lamb in Tandori",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kuzu-tandir.jpg"
+        },
+        {
+          "name": "Kuzu Pirzola",
+          "nameEn": "Lamb Chops",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/kuzu-pirzola.jpg"
+        },
+        {
+          "name": "Çöp Şiş",
+          "nameEn": "Shish Kebab",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/cop-sis.jpg"
+        },
+        {
+          "name": "Çoban Kavurma",
+          "nameEn": "Roasted Shepherd's",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/coban-kavurma.jpg"
+        },
+        {
+          "name": "Et Sote",
+          "nameEn": "Sauteed Meat",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/et-sote.jpg"
+        },
+        {
+          "name": "Karışık Izgara",
+          "nameEn": "Mixed Grill",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/karisik-izgara.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tatli-meyve",
+      "name": "Tatlı & Meyve",
+      "nameEn": "Dessert & Fruits",
+      "icon": "🍰",
+      "items": [
+        {
+          "name": "Dondurmalı İrmik",
+          "nameEn": "Semolina Dessert with Ice Cream",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/dondurmali-irmik.jpg"
+        },
+        {
+          "name": "Fırında Helva",
+          "nameEn": "Halvah in Oven",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/firinda-helva.jpg"
+        },
+        {
+          "name": "Mevsim Meyveleri",
+          "nameEn": "Season Fruit",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mevsim-meyveleri.jpg"
+        }
+      ]
+    },
+    {
+      "id": "mesrubatlar",
+      "name": "Meşrubatlar",
+      "nameEn": "Beverages",
+      "icon": "🥤",
+      "items": [
+        {
+          "name": "Meyve Suları",
+          "nameEn": "Fruit Juices",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mevsim-meyveleri.jpg"
+        },
+        {
+          "name": "Nescafe",
+          "nameEn": "Nescafe",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mevsim-meyveleri.jpg"
+        },
+        {
+          "name": "Çay Bardak",
+          "nameEn": "Glass of Tea",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mevsim-meyveleri.jpg"
+        },
+        {
+          "name": "Çay Fincan",
+          "nameEn": "Cup of Tea",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mevsim-meyveleri.jpg"
+        },
+        {
+          "name": "Türk Kahvesi",
+          "nameEn": "Turkish Coffee",
+          "price": null,
+          "unit": null,
+          "image": "assets/foods/mevsim-meyveleri.jpg"
+        }
+      ]
+    },
+    {
+      "id": "raki",
+      "name": "Rakı",
+      "nameEn": "Raki",
+      "icon": "🥃",
+      "items": [
+        {
+          "name": "Yeni Rakı Duble",
+          "nameEn": "Yeni Rakı Double",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Tek",
+          "nameEn": "Yeni Rakı Single",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Yeni Seri Duble",
+          "nameEn": "Yeni Rakı Yeni Seri Double",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Yeni Seri Tek",
+          "nameEn": "Yeni Rakı Yeni Seri Single",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Uzun Demleme Kraft Duble",
+          "nameEn": "Yeni Rakı Kraft Double",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Uzun Demleme Kraft Tek",
+          "nameEn": "Yeni Rakı Kraft Single",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı 20 cl",
+          "nameEn": "Yeni Rakı 20 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı 35 cl",
+          "nameEn": "Yeni Rakı 35 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı 50 cl",
+          "nameEn": "Yeni Rakı 50 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı 70 cl",
+          "nameEn": "Yeni Rakı 70 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Yeni Seri 35 cl",
+          "nameEn": "Yeni Rakı Yeni Seri 35 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Yeni Seri 50 cl",
+          "nameEn": "Yeni Rakı Yeni Seri 50 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Yeni Seri 70 cl",
+          "nameEn": "Yeni Rakı Yeni Seri 70 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi 20 cl",
+          "nameEn": "Beylerbeyi 20 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi 35 cl",
+          "nameEn": "Beylerbeyi 35 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi 50 cl",
+          "nameEn": "Beylerbeyi 50 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi 70 cl",
+          "nameEn": "Beylerbeyi 70 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi 100 cl",
+          "nameEn": "Beylerbeyi 100 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı Altın Seri 20 cl",
+          "nameEn": "Tekirdağ Altın Seri 20 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı Altın Seri 35 cl",
+          "nameEn": "Tekirdağ Altın Seri 35 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı Altın Seri 50 cl",
+          "nameEn": "Tekirdağ Altın Seri 50 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı Altın Seri 70 cl",
+          "nameEn": "Tekirdağ Altın Seri 70 cl",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Giz",
+          "nameEn": "Yeni Rakı Giz",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Pus",
+          "nameEn": "Yeni Rakı Pus",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı",
+          "nameEn": "Tekirdağ Rakısı",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı Trakya Serisi",
+          "nameEn": "Tekirdağ Trakya Serisi",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı Altın Seri Rezerv",
+          "nameEn": "Tekirdağ Altın Seri Rezerv",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Tekirdağ Rakısı No.10",
+          "nameEn": "Tekirdağ No.10",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Kulüp Rakı",
+          "nameEn": "Kulüp Rakı",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Altınbaş Rakı 24 Ayar",
+          "nameEn": "Altınbaş Rakı 24 Ayar",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Altınbaş Rakı",
+          "nameEn": "Altınbaş Rakı",
+          "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        }
+      ]
+    },
+    {
+      "id": "saraplar",
+      "name": "Şaraplar",
+      "nameEn": "Wines",
+      "icon": "🍷",
+      "subcategories": [
+        {
+          "name": "Kırmızı Şaraplar",
+          "nameEn": "Red Wines",
+          "items": [
+            {
+              "name": "Buzbağ Klasik",
+              "nameEn": "Öküzgözü - Boğazkere",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Terra",
+              "nameEn": "Kalecik-Karası",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Terra",
+              "nameEn": "Cabernet Sauvignon - Merlot",
+              "price": null,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "name": "Beyaz Şaraplar",
+          "nameEn": "White Wines",
+          "items": [
+            {
+              "name": "Buzbağ",
+              "nameEn": "Emir - Narince",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Terra",
+              "nameEn": "Narince",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Terra",
+              "nameEn": "Sauvignon Blanc - Chardonnay",
+              "price": null,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "name": "Roze Şaraplar",
+          "nameEn": "Rose Wines",
+          "items": [
+            {
+              "name": "Buzbağ Roze",
+              "nameEn": "Buzbağ Roze",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Leona Blush",
+              "nameEn": "Leona Blush",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Cielo",
+              "nameEn": "Pinot Grigio Blush / Italy",
+              "price": null,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "name": "Köpüren Şarap",
+          "nameEn": "Sparkling Wine",
+          "items": [
+            {
+              "name": "Buzbağ Roze",
+              "nameEn": "Buzbağ Roze Sparkling",
+              "price": null,
+              "unit": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

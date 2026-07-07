@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Koca Ustanın Yeri - Dijital Menü">
+  <meta name="theme-color" content="#0f766e">
+  <title>Koca Ustanın Yeri | Menü</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+  <!-- Karşılama ekranı -->
+  <section id="welcome-screen" class="welcome">
+    <div class="welcome__top">
+      <button class="lang-toggle" id="lang-toggle" aria-label="Dil değiştir">
+        <span class="lang-toggle__flag" id="lang-flag">🇹🇷</span>
+        <span id="lang-label">TR</span>
+      </button>
+    </div>
+    <div class="welcome__body">
+      <img src="assets/logo.png" alt="" class="welcome__logo" id="logo-welcome">
+      <h1 class="welcome__title" id="restaurant-name-welcome">Koca Ustanın Yeri</h1>
+      <p class="welcome__text" id="welcome-text"></p>
+      <button type="button" class="welcome__cta" id="view-menu-btn"></button>
+    </div>
+  </section>
+
+  <!-- Menü ekranı -->
+  <section id="menu-screen" class="menu-screen hidden" aria-hidden="true">
+    <header class="topbar">
+      <button type="button" class="topbar__back" id="back-btn" aria-label="Geri">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <div class="topbar__brand">
+        <img src="assets/logo.png" alt="" class="topbar__logo" id="logo-menu">
+        <span class="topbar__name" id="restaurant-name-menu">Koca Ustanın Yeri</span>
+      </div>
+      <button class="lang-toggle lang-toggle--menu" id="lang-toggle-menu" aria-label="Dil değiştir">
+        <span id="lang-flag-menu">🇹🇷</span>
+        <span id="lang-label-menu">TR</span>
+      </button>
+    </header>
+
+    <div class="category-strip-wrap">
+      <div class="category-strip" id="category-strip" role="tablist"></div>
+    </div>
+
+    <main class="menu-content" id="menu-content"></main>
+
+    <footer class="bottombar" id="bottombar">
+      <button type="button" class="bottombar__toggle" id="footer-toggle" aria-expanded="false" aria-controls="footer-panel">
+        <span id="footer-toggle-label"></span>
+        <svg class="bottombar__chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
+      </button>
+      <div class="bottombar__panel" id="footer-panel" hidden>
+        <a class="bottombar__maps" id="footer-maps" href="#" target="_blank" rel="noopener noreferrer"></a>
+        <div class="bottombar__phones" id="contact-info"></div>
+        <a class="bottombar__review" id="footer-review" href="#" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          <span id="footer-review-text"></span>
+        </a>
+        <p class="bottombar__note" id="footer-note"></p>
+        <div class="bottombar__social" id="social-links"></div>
+        <p class="bottombar__copy">© <span id="year"></span> Koca Ustanın Yeri</p>
+      </div>
+    </footer>
+  </section>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

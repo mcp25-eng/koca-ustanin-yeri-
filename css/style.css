@@ -68,18 +68,51 @@ body {
   flex-direction: column;
   padding: 1rem 1.25rem 1.5rem;
   overflow: hidden;
-  background: radial-gradient(circle at 50% 18%, #16857b 0%, var(--primary) 42%, var(--primary-dark) 100%);
+  background: #0a3d3a;
+  color: #fff;
+}
+
+/* Full-bleed deniz manzarası */
+.welcome__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.welcome__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  transform: scale(1.04);
+  animation: seaDrift 18s ease-in-out infinite alternate;
+}
+
+/* Okunabilirlik: turkuaz-deniz tonunda yumuşak perde */
+.welcome__veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg,
+      rgba(8, 47, 45, 0.55) 0%,
+      rgba(15, 118, 110, 0.42) 38%,
+      rgba(8, 47, 45, 0.62) 72%,
+      rgba(6, 34, 32, 0.78) 100%),
+    radial-gradient(ellipse at 50% 25%, rgba(20, 184, 166, 0.18), transparent 55%);
 }
 
 /* Arka plan ışıltısı */
 .welcome__glow {
   position: absolute;
   inset: 0;
+  z-index: 1;
   pointer-events: none;
   background:
-    radial-gradient(closest-side at 50% 30%, rgba(204, 251, 241, 0.18), transparent 70%),
-    radial-gradient(closest-side at 85% 12%, rgba(20, 184, 166, 0.28), transparent 60%),
-    radial-gradient(closest-side at 12% 88%, rgba(20, 184, 166, 0.22), transparent 60%);
+    radial-gradient(closest-side at 50% 28%, rgba(204, 251, 241, 0.14), transparent 70%),
+    radial-gradient(closest-side at 82% 10%, rgba(255, 255, 255, 0.08), transparent 55%);
   animation: glowPulse 7s ease-in-out infinite;
 }
 
@@ -134,7 +167,7 @@ body {
   font-size: 1.85rem;
   font-weight: 700;
   letter-spacing: 0.01em;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.55), 0 1px 3px rgba(0, 0, 0, 0.4);
   animation: fadeInDown 0.5s ease both;
   animation-delay: 0.08s;
 }
@@ -179,9 +212,10 @@ body {
 
 .welcome__text {
   font-size: 0.98rem;
-  color: var(--text-muted-on-primary);
+  color: rgba(236, 253, 245, 0.92);
   max-width: 300px;
   line-height: 1.55;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
   animation: fadeInDown 0.5s ease both;
   animation-delay: 0.28s;
 }
@@ -243,6 +277,11 @@ body {
   50% { opacity: 1; }
 }
 
+@keyframes seaDrift {
+  from { transform: scale(1.04) translate3d(0, 0, 0); }
+  to { transform: scale(1.1) translate3d(-1.2%, -0.6%, 0); }
+}
+
 @keyframes ctaBreath {
   0%, 100% { box-shadow: 0 10px 26px rgba(0, 0, 0, 0.22), 0 0 0 6px rgba(204, 251, 241, 0.12); }
   50% { box-shadow: 0 12px 30px rgba(0, 0, 0, 0.26), 0 0 0 10px rgba(204, 251, 241, 0.16); }
@@ -256,7 +295,8 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .welcome__glow,
   .welcome__logo-wrap::before,
-  .welcome__cta { animation: none; }
+  .welcome__cta,
+  .welcome__bg-img { animation: none; }
 }
 
 /* Menü ekranı */

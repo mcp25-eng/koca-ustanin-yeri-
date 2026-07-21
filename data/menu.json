@@ -47,84 +47,84 @@
         {
           "name": "Peynir",
           "nameEn": "Feta Cheese",
-          "price": 150,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/peynir.jpg"
         },
         {
           "name": "Kavun",
           "nameEn": "Melon",
-          "price": 150,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/kavun.jpg"
         },
         {
           "name": "Patlıcan Salata",
           "nameEn": "Eggplant Salad",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/patlican-salata.jpg"
         },
         {
           "name": "Soslu Patlıcan",
           "nameEn": "Eggplant with Sauce",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/soslu-patlican.jpg"
         },
         {
           "name": "Haydari",
           "nameEn": "Thick Yoghurt with Garlic and Dill",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/haydari.jpg"
         },
         {
           "name": "Acılı Ezme",
           "nameEn": "Hot Spicy Tomato Puree",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/acili-ezme.jpg"
         },
         {
           "name": "Havuç Tarator",
           "nameEn": "Carrots, Garlic Sauce",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/havuc-tarator.jpg"
         },
         {
           "name": "Zencefilli Cibez",
           "nameEn": "Cibez with Ginger",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/zencefilli-cibez.jpg"
         },
         {
           "name": "Barbunya Pilaki",
           "nameEn": "Kidney Bean Stew",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/barbunya-pilaki.jpg"
         },
         {
           "name": "Al Biber",
           "nameEn": "Red Pepper",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/al-biber.jpg"
         },
         {
           "name": "Turşu",
           "nameEn": "Pickle",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/tursu.jpg"
         },
         {
           "name": "Çalı Fasulye",
           "nameEn": "Green Beans",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/cali-fasulye.jpg"
         },
@@ -138,84 +138,84 @@
         {
           "name": "Fava",
           "nameEn": "Fava",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/fava.jpg"
         },
         {
           "name": "Deniz Börülcesi",
           "nameEn": "Glasswort",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/deniz-borulcesi.jpg"
         },
         {
           "name": "Semizotu",
           "nameEn": "Purslane with Yoghurt",
-          "price": 200,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/semizotu.jpg"
         },
         {
           "name": "Midye Dolma",
           "nameEn": "Stuffed Mussels",
-          "price": 300,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/midye-dolma.jpg"
         },
         {
           "name": "Ahtapot",
           "nameEn": "Octopus",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/ahtapot.jpg"
         },
         {
           "name": "Lakerda",
           "nameEn": "Pickled Tunny",
-          "price": 350,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/lakerda.jpg"
         },
         {
           "name": "Soslu Hamsi",
           "nameEn": "Anchovy Sauce",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/soslu-hamsi.jpg"
         },
         {
           "name": "Soya Soslu Uskumru",
           "nameEn": "Mackerel with Soy Sauce",
-          "price": 350,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/soya-soslu-uskumru.jpg"
         },
         {
           "name": "Kalamar Cibez",
           "nameEn": "Calamari Cibez",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/kalamar-cibez.jpg"
         },
         {
           "name": "Çiroz",
           "nameEn": "Çiroz",
-          "price": 400,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/ciroz.jpg"
         },
         {
           "name": "Levrek Marin",
           "nameEn": "Marinated Seabass",
-          "price": 400,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/levrek-marin.jpg"
         },
         {
           "name": "Söğüş Karides",
           "nameEn": "Shrimp Salad",
-          "price": 500,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/sogus-karides.jpg"
         },
@@ -229,35 +229,35 @@
         {
           "name": "Ciğer",
           "nameEn": "Fried Liver",
-          "price": 800,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/ciger.jpg"
         },
         {
           "name": "Fesleğenli Levrek Marin",
           "nameEn": "Marinated Seabass with Basil",
-          "price": 400,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/feslegenli-levrek-marin.jpg"
         },
         {
           "name": "Patlıcan Tava",
           "nameEn": "Fried Eggplant",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/patlican-tava.jpg"
         },
         {
           "name": "Soğuk Meze",
           "nameEn": "Cold Meze",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/soguk-meze.jpg"
         },
         {
           "name": "Sıcak Pazı",
           "nameEn": "Hot Chard",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/sicak-pazi.jpg"
         }

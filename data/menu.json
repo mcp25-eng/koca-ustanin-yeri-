@@ -47,14 +47,14 @@
         {
           "name": "Peynir",
           "nameEn": "Feta Cheese",
-          "price": 250,
+          "price": 150,
           "unit": null,
           "image": "assets/foods/peynir.jpg"
         },
         {
           "name": "Kavun",
           "nameEn": "Melon",
-          "price": 250,
+          "price": 150,
           "unit": null,
           "image": "assets/foods/kavun.jpg"
         },
@@ -173,7 +173,7 @@
         {
           "name": "Lakerda",
           "nameEn": "Pickled Tunny",
-          "price": 250,
+          "price": 400,
           "unit": null,
           "image": "assets/foods/lakerda.jpg"
         },
@@ -201,21 +201,21 @@
         {
           "name": "Çiroz",
           "nameEn": "Çiroz",
-          "price": 250,
+          "price": 400,
           "unit": null,
           "image": "assets/foods/ciroz.jpg"
         },
         {
           "name": "Levrek Marin",
           "nameEn": "Marinated Seabass",
-          "price": 250,
+          "price": 400,
           "unit": null,
           "image": "assets/foods/levrek-marin.jpg"
         },
         {
           "name": "Söğüş Karides",
           "nameEn": "Shrimp Salad",
-          "price": 250,
+          "price": 550,
           "unit": null,
           "image": "assets/foods/sogus-karides.jpg"
         },
@@ -236,7 +236,7 @@
         {
           "name": "Fesleğenli Levrek Marin",
           "nameEn": "Marinated Seabass with Basil",
-          "price": 250,
+          "price": 400,
           "unit": null,
           "image": "assets/foods/feslegenli-levrek-marin.jpg"
         },
@@ -342,7 +342,7 @@
         {
           "name": "Yaprak Ciğer",
           "nameEn": "Leaf Liver",
-          "price": 750,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/yaprak-ciger.jpg"
         },

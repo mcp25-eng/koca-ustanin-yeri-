@@ -291,6 +291,10 @@ function toggleLang() {
   state.lang = state.lang === 'tr' ? 'en' : 'tr';
   localStorage.setItem('menu-lang', state.lang);
   renderAll();
+  const closeLabel = document.getElementById('intro-close-label');
+  const closeBtn = document.getElementById('intro-close');
+  if (closeLabel) closeLabel.textContent = t('closeIntro');
+  if (closeBtn) closeBtn.setAttribute('aria-label', t('closeIntro'));
 }
 
 function openMenu() {
@@ -301,6 +305,82 @@ function openMenu() {
 
 function closeMenu() {
   showScreen('welcome');
+}
+
+const INTRO_VIDEOS = ['assets/videos/intro-1.mp4', 'assets/videos/intro-2.mp4'];
+const INTRO_DURATION_MS = 15000;
+const INTRO_STORAGE_KEY = 'intro-seen-v1';
+
+function closeIntroOverlay() {
+  const overlay = document.getElementById('intro-overlay');
+  const video = document.getElementById('intro-video');
+  if (!overlay || overlay.hidden) return;
+
+  if (overlay._introTimer) {
+    clearTimeout(overlay._introTimer);
+    overlay._introTimer = null;
+  }
+  if (video) {
+    video.pause();
+    video.removeAttribute('src');
+    video.load();
+  }
+
+  overlay.classList.add('is-leaving');
+  setTimeout(() => {
+    overlay.hidden = true;
+    overlay.setAttribute('aria-hidden', 'true');
+    overlay.classList.remove('is-leaving');
+  }, 420);
+
+  try {
+    sessionStorage.setItem(INTRO_STORAGE_KEY, '1');
+  } catch (_) { /* ignore */ }
+}
+
+function playIntroClip(index) {
+  const video = document.getElementById('intro-video');
+  if (!video || index >= INTRO_VIDEOS.length) {
+    closeIntroOverlay();
+    return;
+  }
+
+  video.src = INTRO_VIDEOS[index];
+  video.muted = true;
+  video.playsInline = true;
+
+  const goNext = () => {
+    video.removeEventListener('ended', goNext);
+    playIntroClip(index + 1);
+  };
+  video.addEventListener('ended', goNext);
+
+  const playPromise = video.play();
+  if (playPromise && typeof playPromise.catch === 'function') {
+    playPromise.catch(() => {
+      // Autoplay blocked: still keep overlay so user can close.
+    });
+  }
+}
+
+function startIntroOverlay() {
+  const overlay = document.getElementById('intro-overlay');
+  const closeBtn = document.getElementById('intro-close');
+  const closeLabel = document.getElementById('intro-close-label');
+  if (!overlay || !closeBtn) return;
+
+  try {
+    if (sessionStorage.getItem(INTRO_STORAGE_KEY) === '1') return;
+  } catch (_) { /* ignore */ }
+
+  if (closeLabel) closeLabel.textContent = t('closeIntro');
+  closeBtn.setAttribute('aria-label', t('closeIntro'));
+
+  overlay.hidden = false;
+  overlay.setAttribute('aria-hidden', 'false');
+  closeBtn.onclick = closeIntroOverlay;
+  overlay._introTimer = setTimeout(closeIntroOverlay, INTRO_DURATION_MS);
+  playIntroClip(0);
 }
 
 async function init() {
@@ -315,6 +395,7 @@ async function init() {
     const res = await fetch('data/menu.json');
     state.data = await res.json();
     renderAll();
+    startIntroOverlay();
   } catch (err) {
     document.getElementById('welcome-text').textContent = t('loadingError');
     console.error(err);

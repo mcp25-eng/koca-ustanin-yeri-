@@ -1021,34 +1021,6 @@
           "image": "assets/category/raki.jpg"
         },
         {
-          "name": "Yeni Rakı Yeni Seri Duble",
-          "nameEn": "Yeni Rakı Yeni Seri Double",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Yeni Rakı Yeni Seri Tek",
-          "nameEn": "Yeni Rakı Yeni Seri Single",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Yeni Rakı Uzun Demleme Kraft Duble",
-          "nameEn": "Yeni Rakı Kraft Double",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Yeni Rakı Uzun Demleme Kraft Tek",
-          "nameEn": "Yeni Rakı Kraft Single",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
           "name": "Yeni Rakı 20 cl",
           "nameEn": "Yeni Rakı 20 cl",
           "price": 1100,
@@ -1171,69 +1143,6 @@
           "name": "Tekirdağ Rakısı Altın Seri 70 cl",
           "nameEn": "Tekirdağ Altın Seri 70 cl",
           "price": 3500,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Yeni Rakı Giz",
-          "nameEn": "Yeni Rakı Giz",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Yeni Rakı Pus",
-          "nameEn": "Yeni Rakı Pus",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Tekirdağ Rakısı",
-          "nameEn": "Tekirdağ Rakısı",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Tekirdağ Rakısı Trakya Serisi",
-          "nameEn": "Tekirdağ Trakya Serisi",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Tekirdağ Rakısı Altın Seri Rezerv",
-          "nameEn": "Tekirdağ Altın Seri Rezerv",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Tekirdağ Rakısı No.10",
-          "nameEn": "Tekirdağ No.10",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Kulüp Rakı",
-          "nameEn": "Kulüp Rakı",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Altınbaş Rakı 24 Ayar",
-          "nameEn": "Altınbaş Rakı 24 Ayar",
-          "price": null,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Altınbaş Rakı",
-          "nameEn": "Altınbaş Rakı",
-          "price": null,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },

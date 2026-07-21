@@ -1181,102 +1181,36 @@
       "name": "Şaraplar",
       "nameEn": "Wines",
       "icon": "🍷",
-      "subcategories": [
+      "items": [
         {
-          "name": "Kadeh",
-          "nameEn": "By the Glass",
-          "items": [
-            {
-              "name": "Kadeh Şarap",
-              "nameEn": "Glass of Wine",
-              "price": 400,
-              "unit": null
-            }
-          ]
+          "name": "Kadeh Şarap",
+          "nameEn": "Glass of Wine",
+          "price": 400,
+          "unit": null
         },
         {
-          "name": "Kırmızı Şaraplar",
-          "nameEn": "Red Wines",
-          "items": [
-            {
-              "name": "Buzbağ Klasik",
-              "nameEn": "Öküzgözü - Boğazkere",
-              "price": 1800,
-              "unit": null
-            },
-            {
-              "name": "Terra",
-              "nameEn": "Kalecik-Karası",
-              "price": 1800,
-              "unit": null
-            },
-            {
-              "name": "Terra",
-              "nameEn": "Cabernet Sauvignon - Merlot",
-              "price": 1800,
-              "unit": null
-            }
-          ]
+          "name": "Kırmızı Şarap",
+          "nameEn": "Red Wine",
+          "price": 1800,
+          "unit": null
         },
         {
-          "name": "Beyaz Şaraplar",
-          "nameEn": "White Wines",
-          "items": [
-            {
-              "name": "Buzbağ",
-              "nameEn": "Emir - Narince",
-              "price": 1800,
-              "unit": null
-            },
-            {
-              "name": "Terra",
-              "nameEn": "Narince",
-              "price": 1800,
-              "unit": null
-            },
-            {
-              "name": "Terra",
-              "nameEn": "Sauvignon Blanc - Chardonnay",
-              "price": 1800,
-              "unit": null
-            }
-          ]
+          "name": "Beyaz Şarap",
+          "nameEn": "White Wine",
+          "price": 1800,
+          "unit": null
         },
         {
-          "name": "Roze Şaraplar",
-          "nameEn": "Rose Wines",
-          "items": [
-            {
-              "name": "Buzbağ Roze",
-              "nameEn": "Buzbağ Roze",
-              "price": 1800,
-              "unit": null
-            },
-            {
-              "name": "Leona Blush",
-              "nameEn": "Leona Blush",
-              "price": 1800,
-              "unit": null
-            },
-            {
-              "name": "Cielo",
-              "nameEn": "Pinot Grigio Blush / Italy",
-              "price": 1800,
-              "unit": null
-            }
-          ]
+          "name": "Roze Şarap",
+          "nameEn": "Rose Wine",
+          "price": 1800,
+          "unit": null
         },
         {
           "name": "Köpüren Şarap",
           "nameEn": "Sparkling Wine",
-          "items": [
-            {
-              "name": "Buzbağ Roze",
-              "nameEn": "Buzbağ Roze Sparkling",
-              "price": 1800,
-              "unit": null
-            }
-          ]
+          "price": 1800,
+          "unit": null
         }
       ]
     }

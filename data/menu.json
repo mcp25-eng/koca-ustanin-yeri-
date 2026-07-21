@@ -1231,6 +1231,12 @@
           "nameEn": "Smirnoff 35 cl",
           "price": 1800,
           "unit": null
+        },
+        {
+          "name": "Karışık Kuruyemiş",
+          "nameEn": "Mixed Nuts",
+          "price": 250,
+          "unit": null
         }
       ]
     }

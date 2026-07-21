@@ -1207,6 +1207,30 @@
           "nameEn": "12 Year Whisky Double",
           "price": 400,
           "unit": null
+        },
+        {
+          "name": "Duble Cin Tonik",
+          "nameEn": "Gin Tonic Double",
+          "price": 400,
+          "unit": null
+        },
+        {
+          "name": "Duble Votka",
+          "nameEn": "Vodka Double",
+          "price": 400,
+          "unit": null
+        },
+        {
+          "name": "Smirnoff 70 cl",
+          "nameEn": "Smirnoff 70 cl",
+          "price": 2600,
+          "unit": null
+        },
+        {
+          "name": "Smirnoff 35 cl",
+          "nameEn": "Smirnoff 35 cl",
+          "price": 1800,
+          "unit": null
         }
       ]
     }

@@ -272,7 +272,7 @@
         {
           "name": "Kalamar Tava",
           "nameEn": "Fried Calamari",
-          "price": 300,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/kalamar-tava.jpg"
         },
@@ -286,14 +286,14 @@
         {
           "name": "Karides Güveç",
           "nameEn": "Shrimp Casserole",
-          "price": 300,
+          "price": 850,
           "unit": null,
           "image": "assets/foods/karides-guvec.jpg"
         },
         {
           "name": "Tereyağlı Karides",
           "nameEn": "Shrimp with Butter",
-          "price": 300,
+          "price": 850,
           "unit": null,
           "image": "assets/foods/tereyagli-karides.jpg"
         },

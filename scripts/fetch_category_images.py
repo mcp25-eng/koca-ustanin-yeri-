@@ -1,4 +1,4 @@
-"""Download professional category images for rakı and wine."""
+"""Download professional category images for rakı, wine, and beer."""
 import urllib.request
 from io import BytesIO
 from pathlib import Path
@@ -25,27 +25,26 @@ def save_square(url: str, path: Path) -> None:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
-    wine_urls = [
-        "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=85",
-    ]
+    targets = {
+        "wine.jpg": [
+            "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=85",
+        ],
+        "raki.jpg": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tastingouzo.jpg/500px-Tastingouzo.jpg",
+        ],
+        "beer.jpg": [
+            "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=800&q=85",
+            "https://images.unsplash.com/photo-1436076863939-06870fe779c2?w=800&q=85",
+        ],
+    }
 
-    raki_urls = [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tastingouzo.jpg/500px-Tastingouzo.jpg",
-    ]
-
-    for url in wine_urls:
-        try:
-            save_square(url, OUT / "wine.jpg")
-            break
-        except Exception as exc:
-            print(f"wine fail: {exc}")
-
-    for url in raki_urls:
-        try:
-            save_square(url, OUT / "raki.jpg")
-            break
-        except Exception as exc:
-            print(f"raki fail {url[:60]}: {exc}")
+    for filename, urls in targets.items():
+        for url in urls:
+            try:
+                save_square(url, OUT / filename)
+                break
+            except Exception as exc:
+                print(f"{filename} fail {url[:60]}: {exc}")
 
 
 if __name__ == "__main__":

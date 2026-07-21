@@ -82,19 +82,6 @@ def find_sub(name):
     return None
 
 
-if not find_sub("Alkollü İçecekler"):
-    mes["subcategories"].insert(
-        0,
-        {
-            "name": "Alkollü İçecekler",
-            "nameEn": "Alcoholic Drinks",
-            "items": [
-                {"name": "Tuborg Gold", "nameEn": "Tuborg Gold Beer", "price": 250, "unit": None},
-                {"name": "Carlsberg", "nameEn": "Carlsberg Beer", "price": 300, "unit": None},
-            ],
-        },
-    )
-
 gazli = find_sub("Gazlı İçecekler")
 for it in gazli["items"]:
     if it["name"] == "Kola":

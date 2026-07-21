@@ -787,36 +787,6 @@
       "icon": "🥤",
       "subcategories": [
         {
-          "name": "Alkollü İçecekler",
-          "nameEn": "Alcoholic Drinks",
-          "items": [
-            {
-              "name": "Tuborg Gold",
-              "nameEn": "Tuborg Gold Beer",
-              "price": 250,
-              "unit": null
-            },
-            {
-              "name": "Carlsberg",
-              "nameEn": "Carlsberg Beer",
-              "price": 300,
-              "unit": null
-            },
-            {
-              "name": "12 Yıllık Viski Tek",
-              "nameEn": "12 Year Whisky Single",
-              "price": 400,
-              "unit": null
-            },
-            {
-              "name": "12 Yıllık Viski Duble",
-              "nameEn": "12 Year Whisky Double",
-              "price": 400,
-              "unit": null
-            }
-          ]
-        },
-        {
           "name": "Gazlı İçecekler",
           "nameEn": "Soft Drinks",
           "items": [
@@ -1204,6 +1174,38 @@
           "name": "Köpüren Şarap",
           "nameEn": "Sparkling Wine",
           "price": 1800,
+          "unit": null
+        }
+      ]
+    },
+    {
+      "id": "alkollu-icecekler",
+      "name": "Alkollü İçecekler",
+      "nameEn": "Alcoholic Drinks",
+      "icon": "🍺",
+      "items": [
+        {
+          "name": "Tuborg Gold",
+          "nameEn": "Tuborg Gold Beer",
+          "price": 250,
+          "unit": null
+        },
+        {
+          "name": "Carlsberg",
+          "nameEn": "Carlsberg Beer",
+          "price": 300,
+          "unit": null
+        },
+        {
+          "name": "12 Yıllık Viski Tek",
+          "nameEn": "12 Year Whisky Single",
+          "price": 400,
+          "unit": null
+        },
+        {
+          "name": "12 Yıllık Viski Duble",
+          "nameEn": "12 Year Whisky Double",
+          "price": 400,
           "unit": null
         }
       ]

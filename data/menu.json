@@ -229,7 +229,7 @@
         {
           "name": "Ciğer",
           "nameEn": "Fried Liver",
-          "price": null,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/ciger.jpg"
         },
@@ -335,7 +335,7 @@
         {
           "name": "Sigara Böreği",
           "nameEn": "Roll Pastry",
-          "price": 150,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/sigara-boregi.jpg"
         },
@@ -370,21 +370,21 @@
         {
           "name": "Yunan Usulü Çıtır Kabak",
           "nameEn": "Greek-style Crispy Zucchini",
-          "price": null,
+          "price": 350,
           "unit": null,
           "image": "assets/foods/yunan-usulu-kabak.jpg"
         },
         {
           "name": "Levrek Simit",
           "nameEn": "Sea Bass Simit",
-          "price": null,
+          "price": 350,
           "unit": null,
           "image": "assets/foods/levrek-simit.jpg"
         },
         {
           "name": "Balık Böreği",
           "nameEn": "Fish Pastry",
-          "price": null,
+          "price": 350,
           "unit": null,
           "image": "assets/foods/balik-boregi.jpg"
         }
@@ -470,14 +470,14 @@
         {
           "name": "Levrek",
           "nameEn": "Bass",
-          "price": 750,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/levrek-izgara.jpg"
         },
         {
           "name": "Somon",
           "nameEn": "Salmon",
-          "price": null,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/somon-izgara.jpg"
         },
@@ -604,14 +604,14 @@
         {
           "name": "Somon",
           "nameEn": "Salmon",
-          "price": 700,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/somon-tava.jpg"
         },
         {
           "name": "Levrek",
           "nameEn": "Bass",
-          "price": null,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/levrek-tava.jpg"
         },
@@ -703,21 +703,21 @@
         {
           "name": "Kuzu Şiş",
           "nameEn": "Lamb Shish",
-          "price": 750,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/kuzu-sis.jpg"
         },
         {
           "name": "Kuzu Tandır",
           "nameEn": "Lamb in Tandori",
-          "price": null,
+          "price": 1200,
           "unit": null,
           "image": "assets/foods/kuzu-tandir.jpg"
         },
         {
           "name": "Kuzu Pirzola",
           "nameEn": "Lamb Chops",
-          "price": 600,
+          "price": 1000,
           "unit": null,
           "image": "assets/foods/kuzu-pirzola.jpg"
         },
@@ -731,14 +731,14 @@
         {
           "name": "Çoban Kavurma",
           "nameEn": "Roasted Shepherd's",
-          "price": 800,
+          "price": 850,
           "unit": null,
           "image": "assets/foods/coban-kavurma.jpg"
         },
         {
           "name": "Et Sote",
           "nameEn": "Sauteed Meat",
-          "price": 800,
+          "price": 850,
           "unit": null,
           "image": "assets/foods/et-sote.jpg"
         },

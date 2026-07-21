@@ -1073,6 +1073,13 @@
           "image": "assets/category/raki.jpg"
         },
         {
+          "name": "Yeni Rakı Yeni Seri 100 cl",
+          "nameEn": "Yeni Rakı Yeni Seri 1 L",
+          "price": 4000,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
           "name": "Beylerbeyi Göbek 20 cl",
           "nameEn": "Beylerbeyi Göbek 20 cl",
           "price": 1400,
@@ -1103,7 +1110,7 @@
         {
           "name": "Beylerbeyi Göbek 100 cl",
           "nameEn": "Beylerbeyi Göbek 100 cl",
-          "price": null,
+          "price": 4500,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
@@ -1201,7 +1208,7 @@
         {
           "name": "Sarı Zeybek 3 Meşe 35 cl",
           "nameEn": "Sarı Zeybek 3 Meşe 35 cl",
-          "price": 2300,
+          "price": 2400,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
@@ -1222,7 +1229,7 @@
         {
           "name": "Sarı Zeybek 3 Meşe 100 cl",
           "nameEn": "Sarı Zeybek 3 Meşe 1 L",
-          "price": 5500,
+          "price": 5000,
           "unit": null,
           "image": "assets/category/raki.jpg"
         }

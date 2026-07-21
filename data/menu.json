@@ -1,6 +1,6 @@
 {
   "settings": {
-    "showPrices": false,
+    "showPrices": true,
     "showItemImages": true,
     "currency": "₺",
     "footerNote": "Müzikli akşamlarda alkol fiyatlarında değişiklik olabilir.",
@@ -47,49 +47,49 @@
         {
           "name": "Peynir",
           "nameEn": "Feta Cheese",
-          "price": null,
+          "price": 150,
           "unit": null,
           "image": "assets/foods/peynir.jpg"
         },
         {
           "name": "Kavun",
           "nameEn": "Melon",
-          "price": null,
+          "price": 150,
           "unit": null,
           "image": "assets/foods/kavun.jpg"
         },
         {
           "name": "Patlıcan Salata",
           "nameEn": "Eggplant Salad",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/patlican-salata.jpg"
         },
         {
           "name": "Soslu Patlıcan",
           "nameEn": "Eggplant with Sauce",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/soslu-patlican.jpg"
         },
         {
           "name": "Haydari",
           "nameEn": "Thick Yoghurt with Garlic and Dill",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/haydari.jpg"
         },
         {
           "name": "Acılı Ezme",
           "nameEn": "Hot Spicy Tomato Puree",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/acili-ezme.jpg"
         },
         {
           "name": "Havuç Tarator",
           "nameEn": "Carrots, Garlic Sauce",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/havuc-tarator.jpg"
         },
@@ -103,14 +103,14 @@
         {
           "name": "Barbunya Pilaki",
           "nameEn": "Kidney Bean Stew",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/barbunya-pilaki.jpg"
         },
         {
           "name": "Al Biber",
           "nameEn": "Red Pepper",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/al-biber.jpg"
         },
@@ -131,35 +131,35 @@
         {
           "name": "Zeytinyağlı Enginar",
           "nameEn": "Artichoke with Olive Oil",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/zeytinyagli-enginar.jpg"
         },
         {
           "name": "Fava",
           "nameEn": "Fava",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/fava.jpg"
         },
         {
           "name": "Deniz Börülcesi",
           "nameEn": "Glasswort",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/deniz-borulcesi.jpg"
         },
         {
           "name": "Semizotu",
           "nameEn": "Purslane with Yoghurt",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/semizotu.jpg"
         },
         {
           "name": "Midye Dolma",
           "nameEn": "Stuffed Mussels",
-          "price": null,
+          "price": 300,
           "unit": null,
           "image": "assets/foods/midye-dolma.jpg"
         },
@@ -173,7 +173,7 @@
         {
           "name": "Lakerda",
           "nameEn": "Pickled Tunny",
-          "price": null,
+          "price": 350,
           "unit": null,
           "image": "assets/foods/lakerda.jpg"
         },
@@ -272,7 +272,7 @@
         {
           "name": "Kalamar Tava",
           "nameEn": "Fried Calamari",
-          "price": null,
+          "price": 300,
           "unit": null,
           "image": "assets/foods/kalamar-tava.jpg"
         },
@@ -286,21 +286,21 @@
         {
           "name": "Karides Güveç",
           "nameEn": "Shrimp Casserole",
-          "price": null,
+          "price": 300,
           "unit": null,
           "image": "assets/foods/karides-guvec.jpg"
         },
         {
           "name": "Tereyağlı Karides",
           "nameEn": "Shrimp with Butter",
-          "price": null,
+          "price": 300,
           "unit": null,
           "image": "assets/foods/tereyagli-karides.jpg"
         },
         {
           "name": "Jumbo Karides",
           "nameEn": "Jumbo Shrimp",
-          "price": null,
+          "price": 250,
           "unit": "adet",
           "image": "assets/foods/jumbo-karides.jpg"
         },
@@ -321,49 +321,49 @@
         {
           "name": "Balık Köfte",
           "nameEn": "Fishball",
-          "price": null,
+          "price": 100,
           "unit": "adet",
           "image": "assets/foods/balik-kofte.jpg"
         },
         {
           "name": "Paçanga Böreği",
           "nameEn": "Pastrami Pastry",
-          "price": null,
+          "price": 200,
           "unit": "adet",
           "image": "assets/foods/pacanga-boregi.jpg"
         },
         {
           "name": "Sigara Böreği",
           "nameEn": "Roll Pastry",
-          "price": null,
+          "price": 150,
           "unit": null,
           "image": "assets/foods/sigara-boregi.jpg"
         },
         {
           "name": "Yaprak Ciğer",
           "nameEn": "Leaf Liver",
-          "price": null,
+          "price": 750,
           "unit": null,
           "image": "assets/foods/yaprak-ciger.jpg"
         },
         {
           "name": "Ahtapot Izgara",
           "nameEn": "Grilled Octopus",
-          "price": null,
+          "price": 900,
           "unit": null,
           "image": "assets/foods/ahtapot-izgara.jpg"
         },
         {
           "name": "Pastırmalı Humus",
           "nameEn": "Hummus with Pastrami",
-          "price": null,
+          "price": 350,
           "unit": null,
           "image": "assets/foods/pastirmali-humus.jpg"
         },
         {
           "name": "Patates Tava",
           "nameEn": "Fried Potato",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/patates-tava.jpg"
         },
@@ -399,35 +399,35 @@
         {
           "name": "Çoban Salata",
           "nameEn": "Shepherd's Salad",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/coban-salata.jpg"
         },
         {
           "name": "Mevsim Salata",
           "nameEn": "Season Salad",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/mevsim-salata.jpg"
         },
         {
           "name": "Yeşil Salata",
           "nameEn": "Green Salad",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/yesil-salata.jpg"
         },
         {
           "name": "Göbek Salata",
           "nameEn": "Iceberg Salad",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/gobek-salata.jpg"
         },
         {
           "name": "Gavurdağı Salata",
           "nameEn": "Gavurdagi Salad",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/foods/gavurdagi-salata.jpg"
         },
@@ -463,14 +463,14 @@
         {
           "name": "Çupra",
           "nameEn": "Bream",
-          "price": null,
+          "price": 700,
           "unit": null,
           "image": "assets/foods/cupra.jpg"
         },
         {
           "name": "Levrek",
           "nameEn": "Bass",
-          "price": null,
+          "price": 750,
           "unit": null,
           "image": "assets/foods/levrek-izgara.jpg"
         },
@@ -540,14 +540,14 @@
         {
           "name": "Deniz Levreği",
           "nameEn": "Sea Bass",
-          "price": null,
+          "price": 1800,
           "unit": "kg",
           "image": "assets/foods/deniz-levregi.jpg"
         },
         {
           "name": "Deniz Çuprası",
           "nameEn": "Sea Bream",
-          "price": null,
+          "price": 1800,
           "unit": "kg",
           "image": "assets/foods/deniz-cuprasi.jpg"
         },
@@ -604,7 +604,7 @@
         {
           "name": "Somon",
           "nameEn": "Salmon",
-          "price": null,
+          "price": 700,
           "unit": null,
           "image": "assets/foods/somon-tava.jpg"
         },
@@ -640,21 +640,21 @@
         {
           "name": "Tavuk Şiş",
           "nameEn": "Chicken Shish",
-          "price": null,
+          "price": 400,
           "unit": null,
           "image": "assets/foods/tavuk-sis.jpg"
         },
         {
           "name": "Tavuk Sote",
           "nameEn": "Sauteed Chicken",
-          "price": null,
+          "price": 450,
           "unit": null,
           "image": "assets/foods/tavuk-sote.jpg"
         },
         {
           "name": "Tavuk Pirzola",
           "nameEn": "Chicken Chop",
-          "price": null,
+          "price": 400,
           "unit": null,
           "image": "assets/foods/tavuk-pirzola.jpg"
         },
@@ -675,7 +675,7 @@
         {
           "name": "Köfte",
           "nameEn": "Meatball",
-          "price": null,
+          "price": 450,
           "unit": null,
           "image": "assets/foods/kofte.jpg"
         },
@@ -689,21 +689,21 @@
         {
           "name": "Dana Bonfile",
           "nameEn": "Beef Tenderloin",
-          "price": null,
+          "price": 1000,
           "unit": null,
           "image": "assets/foods/dana-bonfile.jpg"
         },
         {
           "name": "Dana Antrikot",
           "nameEn": "Veal Entrecote",
-          "price": null,
+          "price": 900,
           "unit": null,
           "image": "assets/foods/dana-antrikot.jpg"
         },
         {
           "name": "Kuzu Şiş",
           "nameEn": "Lamb Shish",
-          "price": null,
+          "price": 750,
           "unit": null,
           "image": "assets/foods/kuzu-sis.jpg"
         },
@@ -717,7 +717,7 @@
         {
           "name": "Kuzu Pirzola",
           "nameEn": "Lamb Chops",
-          "price": null,
+          "price": 600,
           "unit": null,
           "image": "assets/foods/kuzu-pirzola.jpg"
         },
@@ -731,21 +731,21 @@
         {
           "name": "Çoban Kavurma",
           "nameEn": "Roasted Shepherd's",
-          "price": null,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/coban-kavurma.jpg"
         },
         {
           "name": "Et Sote",
           "nameEn": "Sauteed Meat",
-          "price": null,
+          "price": 800,
           "unit": null,
           "image": "assets/foods/et-sote.jpg"
         },
         {
           "name": "Karışık Izgara",
           "nameEn": "Mixed Grill",
-          "price": null,
+          "price": 1200,
           "unit": null,
           "image": "assets/foods/karisik-izgara.jpg"
         }
@@ -774,7 +774,7 @@
         {
           "name": "Mevsim Meyveleri",
           "nameEn": "Season Fruit",
-          "price": null,
+          "price": 200,
           "unit": null,
           "image": "assets/foods/mevsim-meyveleri.jpg"
         }
@@ -785,41 +785,144 @@
       "name": "Meşrubatlar",
       "nameEn": "Beverages",
       "icon": "🥤",
-      "items": [
+      "subcategories": [
+        {
+          "name": "Gazlı İçecekler",
+          "nameEn": "Soft Drinks",
+          "items": [
+            {
+              "name": "Kola",
+              "nameEn": "Cola",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Kola Zero",
+              "nameEn": "Cola Zero",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Fanta",
+              "nameEn": "Fanta",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Sprite",
+              "nameEn": "Sprite",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Gazoz",
+              "nameEn": "Lemon Soda",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Gazzosa",
+              "nameEn": "Gazzosa",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Soda",
+              "nameEn": "Club Soda",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Schweppes",
+              "nameEn": "Schweppes",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Soğuk Çay",
+              "nameEn": "Iced Tea",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Limonata",
+              "nameEn": "Lemonade",
+              "price": null,
+              "unit": null
+            }
+          ]
+        },
+        {
+          "name": "Su & Ayran",
+          "nameEn": "Water & Ayran",
+          "items": [
+            {
+              "name": "Su",
+              "nameEn": "Still Water",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Maden Suyu",
+              "nameEn": "Mineral Water",
+              "price": null,
+              "unit": null
+            },
+            {
+              "name": "Ayran",
+              "nameEn": "Ayran",
+              "price": null,
+              "unit": null
+            }
+          ]
+        },
         {
           "name": "Meyve Suları",
           "nameEn": "Fruit Juices",
-          "price": null,
-          "unit": null,
-          "image": "assets/foods/mevsim-meyveleri.jpg"
+          "items": [
+            {
+              "name": "Meyve Suları",
+              "nameEn": "Fruit Juices",
+              "price": 100,
+              "unit": null
+            },
+            {
+              "name": "Cappy",
+              "nameEn": "Cappy Juice",
+              "price": null,
+              "unit": null
+            }
+          ]
         },
         {
-          "name": "Nescafe",
-          "nameEn": "Nescafe",
-          "price": null,
-          "unit": null,
-          "image": "assets/foods/mevsim-meyveleri.jpg"
-        },
-        {
-          "name": "Çay Bardak",
-          "nameEn": "Glass of Tea",
-          "price": null,
-          "unit": null,
-          "image": "assets/foods/mevsim-meyveleri.jpg"
-        },
-        {
-          "name": "Çay Fincan",
-          "nameEn": "Cup of Tea",
-          "price": null,
-          "unit": null,
-          "image": "assets/foods/mevsim-meyveleri.jpg"
-        },
-        {
-          "name": "Türk Kahvesi",
-          "nameEn": "Turkish Coffee",
-          "price": null,
-          "unit": null,
-          "image": "assets/foods/mevsim-meyveleri.jpg"
+          "name": "Sıcak İçecekler",
+          "nameEn": "Hot Drinks",
+          "items": [
+            {
+              "name": "Çay Bardak",
+              "nameEn": "Glass of Tea",
+              "price": 30,
+              "unit": null
+            },
+            {
+              "name": "Çay Fincan",
+              "nameEn": "Cup of Tea",
+              "price": 50,
+              "unit": null
+            },
+            {
+              "name": "Türk Kahvesi",
+              "nameEn": "Turkish Coffee",
+              "price": 70,
+              "unit": null
+            },
+            {
+              "name": "Nescafe",
+              "nameEn": "Nescafe",
+              "price": 70,
+              "unit": null
+            }
+          ]
         }
       ]
     },
@@ -832,14 +935,14 @@
         {
           "name": "Yeni Rakı Duble",
           "nameEn": "Yeni Rakı Double",
-          "price": null,
+          "price": 400,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı Tek",
           "nameEn": "Yeni Rakı Single",
-          "price": null,
+          "price": 250,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
@@ -874,112 +977,112 @@
         {
           "name": "Yeni Rakı 20 cl",
           "nameEn": "Yeni Rakı 20 cl",
-          "price": null,
+          "price": 1000,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı 35 cl",
           "nameEn": "Yeni Rakı 35 cl",
-          "price": null,
+          "price": 1600,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı 50 cl",
           "nameEn": "Yeni Rakı 50 cl",
-          "price": null,
+          "price": 2100,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı 70 cl",
           "nameEn": "Yeni Rakı 70 cl",
-          "price": null,
+          "price": 2500,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı Yeni Seri 35 cl",
           "nameEn": "Yeni Rakı Yeni Seri 35 cl",
-          "price": null,
+          "price": 1650,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı Yeni Seri 50 cl",
           "nameEn": "Yeni Rakı Yeni Seri 50 cl",
-          "price": null,
+          "price": 2100,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı Yeni Seri 70 cl",
           "nameEn": "Yeni Rakı Yeni Seri 70 cl",
-          "price": null,
+          "price": 2600,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Beylerbeyi 20 cl",
           "nameEn": "Beylerbeyi 20 cl",
-          "price": null,
+          "price": 1300,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Beylerbeyi 35 cl",
           "nameEn": "Beylerbeyi 35 cl",
-          "price": null,
+          "price": 2000,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Beylerbeyi 50 cl",
           "nameEn": "Beylerbeyi 50 cl",
-          "price": null,
+          "price": 2300,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Beylerbeyi 70 cl",
           "nameEn": "Beylerbeyi 70 cl",
-          "price": null,
+          "price": 3000,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Beylerbeyi 100 cl",
           "nameEn": "Beylerbeyi 100 cl",
-          "price": null,
+          "price": 4500,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 20 cl",
           "nameEn": "Tekirdağ Altın Seri 20 cl",
-          "price": null,
+          "price": 1100,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 35 cl",
           "nameEn": "Tekirdağ Altın Seri 35 cl",
-          "price": null,
+          "price": 1600,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 50 cl",
           "nameEn": "Tekirdağ Altın Seri 50 cl",
-          "price": null,
+          "price": 2200,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 70 cl",
           "nameEn": "Tekirdağ Altın Seri 70 cl",
-          "price": null,
+          "price": 2800,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
@@ -1061,7 +1164,7 @@
             {
               "name": "Buzbağ Klasik",
               "nameEn": "Öküzgözü - Boğazkere",
-              "price": null,
+              "price": 1400,
               "unit": null
             },
             {
@@ -1085,7 +1188,7 @@
             {
               "name": "Buzbağ",
               "nameEn": "Emir - Narince",
-              "price": null,
+              "price": 1200,
               "unit": null
             },
             {
@@ -1115,7 +1218,7 @@
             {
               "name": "Leona Blush",
               "nameEn": "Leona Blush",
-              "price": null,
+              "price": 1200,
               "unit": null
             },
             {

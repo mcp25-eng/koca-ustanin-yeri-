@@ -787,13 +787,31 @@
       "icon": "🥤",
       "subcategories": [
         {
+          "name": "Bira",
+          "nameEn": "Beer",
+          "items": [
+            {
+              "name": "Tuborg Gold",
+              "nameEn": "Tuborg Gold",
+              "price": 250,
+              "unit": null
+            },
+            {
+              "name": "Carlsberg",
+              "nameEn": "Carlsberg",
+              "price": 300,
+              "unit": null
+            }
+          ]
+        },
+        {
           "name": "Gazlı İçecekler",
           "nameEn": "Soft Drinks",
           "items": [
             {
               "name": "Kola",
               "nameEn": "Cola",
-              "price": null,
+              "price": 100,
               "unit": null
             },
             {
@@ -805,7 +823,7 @@
             {
               "name": "Fanta",
               "nameEn": "Fanta",
-              "price": null,
+              "price": 100,
               "unit": null
             },
             {
@@ -829,7 +847,7 @@
             {
               "name": "Soda",
               "nameEn": "Club Soda",
-              "price": null,
+              "price": 50,
               "unit": null
             },
             {
@@ -847,7 +865,25 @@
             {
               "name": "Limonata",
               "nameEn": "Lemonade",
-              "price": null,
+              "price": 150,
+              "unit": null
+            },
+            {
+              "name": "Şalgam",
+              "nameEn": "Turnip Juice",
+              "price": 100,
+              "unit": null
+            },
+            {
+              "name": "Red Bull",
+              "nameEn": "Red Bull",
+              "price": 200,
+              "unit": null
+            },
+            {
+              "name": "Meyveli Soda",
+              "nameEn": "Flavored Soda",
+              "price": 80,
               "unit": null
             }
           ]
@@ -857,9 +893,15 @@
           "nameEn": "Water & Ayran",
           "items": [
             {
-              "name": "Su",
-              "nameEn": "Still Water",
-              "price": null,
+              "name": "Küçük Su",
+              "nameEn": "Small Water",
+              "price": 25,
+              "unit": null
+            },
+            {
+              "name": "Büyük Su",
+              "nameEn": "Large Water",
+              "price": 50,
               "unit": null
             },
             {
@@ -907,19 +949,19 @@
             {
               "name": "Çay Fincan",
               "nameEn": "Cup of Tea",
-              "price": 50,
+              "price": null,
               "unit": null
             },
             {
               "name": "Türk Kahvesi",
               "nameEn": "Turkish Coffee",
-              "price": 70,
+              "price": 80,
               "unit": null
             },
             {
               "name": "Nescafe",
               "nameEn": "Nescafe",
-              "price": 70,
+              "price": 80,
               "unit": null
             }
           ]
@@ -977,112 +1019,119 @@
         {
           "name": "Yeni Rakı 20 cl",
           "nameEn": "Yeni Rakı 20 cl",
-          "price": 1000,
+          "price": 1100,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı 35 cl",
           "nameEn": "Yeni Rakı 35 cl",
-          "price": 1600,
+          "price": 1700,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı 50 cl",
           "nameEn": "Yeni Rakı 50 cl",
-          "price": 2100,
+          "price": 2200,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı 70 cl",
           "nameEn": "Yeni Rakı 70 cl",
-          "price": 2500,
+          "price": 2800,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Yeni Rakı Yeni Seri 20 cl",
+          "nameEn": "Yeni Rakı Yeni Seri 20 cl",
+          "price": 1200,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı Yeni Seri 35 cl",
           "nameEn": "Yeni Rakı Yeni Seri 35 cl",
-          "price": 1650,
+          "price": 1800,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı Yeni Seri 50 cl",
           "nameEn": "Yeni Rakı Yeni Seri 50 cl",
-          "price": 2100,
+          "price": 2200,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Yeni Rakı Yeni Seri 70 cl",
           "nameEn": "Yeni Rakı Yeni Seri 70 cl",
-          "price": 2600,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Beylerbeyi 20 cl",
-          "nameEn": "Beylerbeyi 20 cl",
-          "price": 1300,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Beylerbeyi 35 cl",
-          "nameEn": "Beylerbeyi 35 cl",
-          "price": 2000,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Beylerbeyi 50 cl",
-          "nameEn": "Beylerbeyi 50 cl",
-          "price": 2300,
-          "unit": null,
-          "image": "assets/category/raki.jpg"
-        },
-        {
-          "name": "Beylerbeyi 70 cl",
-          "nameEn": "Beylerbeyi 70 cl",
           "price": 3000,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
-          "name": "Beylerbeyi 100 cl",
-          "nameEn": "Beylerbeyi 100 cl",
-          "price": 4500,
+          "name": "Beylerbeyi Göbek 20 cl",
+          "nameEn": "Beylerbeyi Göbek 20 cl",
+          "price": 1400,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi Göbek 35 cl",
+          "nameEn": "Beylerbeyi Göbek 35 cl",
+          "price": 2300,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi Göbek 50 cl",
+          "nameEn": "Beylerbeyi Göbek 50 cl",
+          "price": 3000,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi Göbek 70 cl",
+          "nameEn": "Beylerbeyi Göbek 70 cl",
+          "price": 3800,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Beylerbeyi Göbek 100 cl",
+          "nameEn": "Beylerbeyi Göbek 100 cl",
+          "price": null,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 20 cl",
           "nameEn": "Tekirdağ Altın Seri 20 cl",
-          "price": 1100,
+          "price": 1300,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 35 cl",
           "nameEn": "Tekirdağ Altın Seri 35 cl",
-          "price": 1600,
+          "price": 2000,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 50 cl",
           "nameEn": "Tekirdağ Altın Seri 50 cl",
-          "price": 2200,
+          "price": 2600,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
         {
           "name": "Tekirdağ Rakısı Altın Seri 70 cl",
           "nameEn": "Tekirdağ Altın Seri 70 cl",
-          "price": 2800,
+          "price": 3500,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
@@ -1146,6 +1195,34 @@
           "name": "Altınbaş Rakı",
           "nameEn": "Altınbaş Rakı",
           "price": null,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Sarı Zeybek 3 Meşe 35 cl",
+          "nameEn": "Sarı Zeybek 3 Meşe 35 cl",
+          "price": 2300,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Sarı Zeybek 3 Meşe 50 cl",
+          "nameEn": "Sarı Zeybek 3 Meşe 50 cl",
+          "price": 3200,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Sarı Zeybek 3 Meşe 70 cl",
+          "nameEn": "Sarı Zeybek 3 Meşe 70 cl",
+          "price": 4000,
+          "unit": null,
+          "image": "assets/category/raki.jpg"
+        },
+        {
+          "name": "Sarı Zeybek 3 Meşe 100 cl",
+          "nameEn": "Sarı Zeybek 3 Meşe 1 L",
+          "price": 5500,
           "unit": null,
           "image": "assets/category/raki.jpg"
         }

@@ -17,8 +17,7 @@ const I18N = {
     perKg: 'kg',
     back: 'Geri',
     contactInfo: 'İletişim & Bilgi',
-    hideContact: 'Gizle',
-    closeIntro: 'Kapat'
+    hideContact: 'Gizle'
   },
   en: {
     welcome: 'Fresh fish, rich meze varieties and sea-breeze flavors await you at our table.',
@@ -31,8 +30,7 @@ const I18N = {
     perKg: 'kg',
     back: 'Back',
     contactInfo: 'Contact & Info',
-    hideContact: 'Hide',
-    closeIntro: 'Close'
+    hideContact: 'Hide'
   }
 };
 

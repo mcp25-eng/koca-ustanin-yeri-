@@ -1001,7 +1001,7 @@
         {
           "name": "Yeni Rakı 50 cl",
           "nameEn": "Yeni Rakı 50 cl",
-          "price": 2200,
+          "price": 2300,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
@@ -1029,7 +1029,7 @@
         {
           "name": "Yeni Rakı Yeni Seri 50 cl",
           "nameEn": "Yeni Rakı Yeni Seri 50 cl",
-          "price": 2200,
+          "price": 2400,
           "unit": null,
           "image": "assets/category/raki.jpg"
         },
